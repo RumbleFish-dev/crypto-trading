@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
-
+const Schema = mongoose.Schema;  // Define the proto model type
+ //id: {
+ //   type: String,
+ //   required: true,
+ //   unique: true
+ // },
 const DataSchema = new Schema({
   id: {
     type: String,
